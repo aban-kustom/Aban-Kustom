@@ -1,0 +1,94 @@
+/* ---------------- Body & Fonts ---------------- */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f2f2f2;
+  color: #222;
+
+  text-align: center;
+}
+
+/* ---------------- Header ---------------- */
+header {
+  background-color: #000000;           /* black header */
+  color: white;
+  padding: 30px 10px;
+}
+
+/* Header titles (business names) */
+.logo-title {
+  font-family: 'Anton', sans-serif;    /* bold modern font */
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* ---------------- Sections ---------------- */
+section {
+  padding: 40px 20px;
+}
+
+/* ---------------- Item / Service Cards ---------------- */
+.item, .service {
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.item img, .service img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.item h2, .service h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.item p, .service p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+/* ---------------- Buttons ---------------- */
+.btn {
+  display: inline-block;
+  background-color: #25d366;  /* WhatsApp green */
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #1ebe5d;  /* darker green on hover */
+}
+
+/* ---------------- Footer ---------------- */
+footer {
+  background-color: #222222;  /* dark grey footer */
+  color: white;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+/* ---------------- Navigation ---------------- */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #25d366;
+}
